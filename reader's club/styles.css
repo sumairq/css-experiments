@@ -1,0 +1,148 @@
+*,
+*::before,
+*::after {
+ box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400; 
+}
+
+main {
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    background-color: rgb(255, 150, 111);
+}
+
+nav {
+    padding-left: 20px;
+    padding-right: 20px;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: orangered;
+}
+
+.menu-icon {
+    font-size: 1.5rem;
+}
+
+.article-ws {
+    padding-top: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+
+
+.article-ws article {
+   order: 2;
+   display: inline-block;
+   width: 90rem;
+   padding-right: 60px;
+   clear:both;
+}
+
+.article-ws p:first::first-letter {
+     font-size: 250%;
+     color: orangered;
+}
+
+
+figure {
+    float: right;
+    position: relative;
+    top: 4px;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    
+}
+
+figcaption {
+    text-align: center;
+    font-size: small;
+    background-color: #fff;
+    margin-bottom: auto;
+    width: 200px;
+    font-style: italic;
+}
+
+figure img {
+    width: 200px;
+   }
+
+.article-ws aside {
+    order: 1;
+    background-color: cadetblue;
+    border-radius: 10px;
+    width: 300px;
+    height: max-content;
+    padding: 20px;
+
+
+}
+
+.article-ws aside li {
+    list-style: none;
+    border-bottom: 1px solid #fff;
+}
+
+.article-ws aside li a:link, .article-ws aside li a:visited {
+  
+    color: #fff;
+    text-decoration: none;
+    line-height: 1.4rem;
+}
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    background-color: orangered;
+    height: 50px;
+}
+
+
+.article-title {
+    font-weight:800;
+    font-size: 35px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo i {
+    margin-left: 15px;
+    font-size: 1.5rem;
+}
+
+.icon-inline {
+    padding-left: 5px;
+    padding-right: 5px
+}
+
+
+/* Utility Classes */
+
+.flex-bt {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
