@@ -15,6 +15,8 @@ To get started with these CSS experiments, simply clone the repository to your l
 
 ```bash
 git clone https://github.com/your-username/css-experiments.git
+```
+
 Prerequisites
 Make sure you have a modern web browser installed to view and test the CSS experiments.
 
