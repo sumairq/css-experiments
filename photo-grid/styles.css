@@ -1,0 +1,63 @@
+*,*::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'quicksand', Courier, monospace;
+}
+
+nav {
+    display: flex;
+    font-family:'ramaraja', Courier, monospace;
+    background-image: linear-gradient(to top, rgb(5, 226, 5), green);
+    color: whitesmoke;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: space-around;
+    height: 4rem;
+    border-radius: 10px;
+
+}
+
+nav > li {
+list-style: none;  
+padding-left: 18rem;
+padding-right: 18rem; 
+}
+
+nav > li:hover {
+    background-color: rgba(0, 128, 0, 0.348); 
+    box-shadow: rgba(46, 240, 91, 0.4) 0px 5px, rgba(49, 240, 46, 0.3) 0px 10px, rgba(46, 240, 56, 0.2) 0px 15px, rgba(46, 240, 56, 0.1) 0px 20px, rgba(46, 240, 62, 0.05) 0px 25px;
+    }
+
+nav > li:nth-child(2) {
+    border-right: 4px solid white;
+    border-left: 4px solid white;
+
+}
+
+.photogrid1 img {
+    width: 50%;
+    object-fit: contain;
+}
+
+.photogrid1 {
+    padding: 10px;
+    border: 3px solid grey;
+    border-radius: 10px;
+    margin-top: 5rem;
+    height: 70vh;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.grid-cell {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
