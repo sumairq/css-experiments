@@ -1,6 +1,9 @@
 # CSS Experiments and Exploration
+<p align="center">
+    <img src="https://github.com/sumairq/css-experiments/assets/60618877/53c62f96-d4d5-41e5-b496-6ada79d9d1cd" style="float:left; margin-right:10px; width:35%;" alt="Your Image Description">
+</p>
 
-Welcome to the CSS Experiments and Exploration repository! Here, I document various experiments and explorations with Cascading Style Sheets (CSS). Feel free to explore the code and use it as a reference for your own projects.
+Welcome to the CSS Experiments and Exploration repository! Here, we document various experiments and explorations with Cascading Style Sheets (CSS). Feel free to explore the code and use it as a reference for your own projects.
 
 ## Table of Contents
 
