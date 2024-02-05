@@ -1,0 +1,80 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+    font-family: 'quicksand', Courier, monospace;
+}
+
+.page-heading {
+    text-align: center;
+    font-size: 3.5rem ;
+}
+
+h2 {
+    font-size: 3.5rem;
+    color: rgb(209, 81, 35);
+}
+
+.layout-wrapper {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* GRID 1 */
+
+.grid-1 {
+    background-color: blueviolet;
+    color: bisque;
+    font-weight:800;
+    font-size: 1.8rem;
+    width: 50%;
+    height: 35vh;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    background-color: #55937f;
+    grid-column: span 12;
+    grid-row: span 1;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    background-color: rgb(143, 13, 13);
+    grid-column: span 4;
+    grid-row: span 3 ;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    background-color: rgb(167, 167, 13);
+    grid-column: span 8;
+    grid-row: span 3 ;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    background-color: #55937f;
+    grid-column: span 12;
+    grid-row: span 1 ;
+}
+
+/* GRID 1 ENDS HERE */
