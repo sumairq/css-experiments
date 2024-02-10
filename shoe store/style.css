@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.main-content{
+    background-color: #9400d3;
+    color: white;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    
+    
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #32174d;
+}
+
+
+
+
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.sidebar a {
+    font-size: large;
+    text-decoration: none;
+    color: #fff;
+    margin: 15px auto;
+}
+.showroom{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+.top-trending{
+
+    display: block;
+    font-size: 36px;
+}
+.card img {
+    width: 100%;
+    height:170px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.card p {
+    font-size: 14px;
+    color: white;
+}
+.sale-t{
+    display: block;
+    margin: auto;
+    font-size: 36px;
+}
+.onsale{
+    display: flex;
+    flex-wrap: wrap;
+}
+.right-sidebar{
+    color: white;
+}
+.right-sidebar p{
+    font-size: large;
+    font-weight: 400;
+}
+.right-sidebar input{
+    padding: 5px;
+    border-radius: 10px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.input-btn{
+    display: block;
+    width: 80px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
