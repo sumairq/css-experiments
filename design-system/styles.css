@@ -127,7 +127,7 @@ p {
   
   .large-button::after {
     content: '';
-    position: absolute;
+    position: relative;
     z-index: -1;
     background: hsl(var(--clr-white)/ .15);
     width: 100%;
