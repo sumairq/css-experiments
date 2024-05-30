@@ -12,7 +12,7 @@ Welcome to the CSS Experiments and Exploration repository! Here, we document var
 - [Contributing](#contributing)
 - [License](#license)
 
-## Getting Started 
+## Getting Started .. 
 
 To get started with these CSS experiments, simply clone the repository to your local machine and access the code within the repository:
 
