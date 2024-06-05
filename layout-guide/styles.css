@@ -41,6 +41,17 @@ h2 {
     grid-template-rows: repeat(5, 1fr);
 }
 
+.grid-2 {
+    background-color: rgb(43, 226, 186);
+    color: bisque;
+    font-weight:800;
+    font-size: 1.8rem;
+    width: 50%;
+    height: 35vh;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
 .header {
     display: flex;
     align-items: center;
