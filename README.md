@@ -24,7 +24,7 @@ git clone https://github.com/your-username/css-experiments.git
 Make sure you have a modern web browser installed to view and test the CSS experiments.
 
 ## Usage
-Each experiment is organized into its own directory with a descriptive name. Feel free to navigate through the directories and check out the source code. You can use these experiments as inspiration or incorporate them directly into your own projects.
+Each experiment is organized into its own directory with a descriptive name and a readme. Feel free to navigate through the directories and check out the source code. You can use these experiments as inspiration or incorporate them directly into your own projects.
 
 ## Contributing
 If you'd like to contribute to this repository by adding your own CSS experiments or improving existing ones, follow these steps:
