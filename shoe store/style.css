@@ -200,7 +200,7 @@ footer {
     margin-bottom: 10px;
 }
 .input-btn{
-    display: block;
+    display: inline-block;
     width: 80px;
     margin: 0 auto;
     padding: 10px;
